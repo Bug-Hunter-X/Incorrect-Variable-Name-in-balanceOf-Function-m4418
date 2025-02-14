@@ -1,0 +1,2 @@
+# Incorrect Variable Name in balanceOf Function
+This example demonstrates a common error in Solidity: using an incorrect variable name. The `balanceOf` function attempts to access a variable named `balances`, while it should actually be accessing `balanceOf`. This results in the balance not updating properly during transfers.  The solution shows how to correctly reference the `balanceOf` mapping.
